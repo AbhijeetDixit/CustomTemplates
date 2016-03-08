@@ -1,0 +1,30 @@
+{
+  "name": "post_templates",
+  "version": "1.0.0",
+  "description": "Templates of post for dojugaad",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhijeetDixit/CustomTemplates.git"
+  },
+  "keywords": [
+    "templates"
+  ],
+  "author": "Abhijeet Dixit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhijeetDixit/CustomTemplates/issues"
+  },
+  "homepage": "https://github.com/AbhijeetDixit/CustomTemplates#readme"
+}
