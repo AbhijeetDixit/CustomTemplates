@@ -56,6 +56,9 @@ app.directive('postItem', function ($compile, TemplateService) {
             case 'notes':
                 template = templates.noteTemplate;
                 break;
+            case 'textonly':
+                template = templates.textOnlyTemplate;
+                break;
         }
 
         return template;
