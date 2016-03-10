@@ -4,6 +4,7 @@
   "description": "Templates of post for dojugaad",
   "main": "server.js",
   "dependencies": {
+    "angular": "^1.5.0",
     "body-parser": "^1.15.0",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
