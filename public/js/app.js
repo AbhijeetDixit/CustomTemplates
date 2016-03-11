@@ -59,6 +59,9 @@ app.directive('postItem', function ($compile, TemplateService) {
             case 'textonly':
                 template = templates.textOnlyTemplate;
                 break;
+            case 'singleimage':
+                template = templates.singleImageTemplate;
+                break;
         }
 
         return template;
